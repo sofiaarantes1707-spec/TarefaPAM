@@ -6,8 +6,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 // Importação das páginas
 import Home from './components/Home';
 import Perfil_Usuarios from './components/Perfil_Usuario';
-import Concluidas from './components/Concluidas';
-import NaoConcluido from './components/NaoConcluido';
+import Concluidas from './components/Concluido';
+import NaoConcluido from './components/Nao_Concluido';
 
 const Drawer = createDrawerNavigator();
 
